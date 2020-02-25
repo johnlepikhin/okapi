@@ -66,7 +66,7 @@ pub(crate) fn set_content_type(
     Ok(())
 }
 
-pub(crate) fn add_schema_response(
+pub fn add_schema_response(
     responses: &mut Responses,
     status: u16,
     content_type: impl ToString,
